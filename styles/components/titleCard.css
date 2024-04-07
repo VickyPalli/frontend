@@ -1,0 +1,44 @@
+.title-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption-section {
+  font-size: 50px;
+  width: 500px;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
+}
+
+.sectionCardsContainer {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.sectionCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .title-card-container {
+    flex-direction: column;
+  }
+  .caption-section {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .sectionCardsContainer {
+    flex-direction: column;
+  }
+
+  .sectionCard {
+    gap: 10px;
+    padding: 10px;
+  }
+}

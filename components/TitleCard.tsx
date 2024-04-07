@@ -1,24 +1,24 @@
 import React from "react";
-import Image from "next/image";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import { titleCardsData } from "../utils/helper";
 
 const TitleCard: React.FC = (): JSX.Element => {
-  console.log(titleCardsData.length);
   return (
     <div>
-      <div className="flex items-center justify-between w-2/4 m-auto">
-        <div className="text-6xl text-cyan-400">We believe in Education</div>
+      <div className="title-card-container">
+        <div className="caption-section">
+          Building Foundations for Future Success
+        </div>
         <div>
-          <Image src="/child.webp" alt="logo" width={800} height={800} />
+          <img src="/child.jpg" alt="logo" />
         </div>
       </div>
-      <div className="flex px-5">
+      <div className="sectionCardsContainer">
         {titleCardsData.map((data, index) => {
           return (
             <div
               key={index + "section"}
-              className="flex flex-col items-center justify-between w-1/4 py-7 px-4 gap-4"
+              className="sectionCard"
               style={{ backgroundColor: data.bgColor }}
             >
               <RocketLaunchIcon style={{ color: "white" }} fontSize="large" />
