@@ -1,0 +1,47 @@
+.expertsContainer {
+  padding: 0px 20px;
+  margin: 30px 0px;
+}
+
+.experts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 20px auto;
+  gap: 30px;
+}
+
+.expertCard {
+  border-radius: 10px;
+  border: 1px solid rgb(214, 210, 210);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expertCard img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border-radius: 50%;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .experts {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .expertCard img {
+    width: 150px;
+    height: 150px;
+  }
+}

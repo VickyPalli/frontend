@@ -5,6 +5,8 @@
 @import "@/styles/components/header.css";
 @import "@/styles/components/titleCard.css";
 @import "@/styles/components/carousel.css";
+@import "@/styles/components/footer.css";
+@import "@/styles/components/experts.css";
 
 body {
   font-family: Poppins, sans-serif !important;
