@@ -4,7 +4,12 @@
 
 @import "@/styles/components/header.css";
 @import "@/styles/components/titleCard.css";
+@import "@/styles/components/carousel.css";
 
 body {
   font-family: Poppins, sans-serif !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

@@ -24,3 +24,81 @@ export const titleCardsData = [
     bgColor: "rgba(253, 223, 49, 1)",
   },
 ];
+
+export const carouselData = [
+  {
+    id: 1,
+    text: "First slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 2,
+    text: "Second slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 3,
+    text: "Third slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 4,
+    text: "Fourth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 5,
+    text: "Fifth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 6,
+    text: "Sixth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 7,
+    text: "Seventh slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 8,
+    text: "Eighth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 9,
+    text: "Ninth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 10,
+    text: "Tenth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 11,
+    text: "Eleventh slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 12,
+    text: "Twelfth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 13,
+    text: "Thirteenth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 14,
+    text: "Fourteenth slide",
+    imagePath: "carousel/carousel",
+  },
+  {
+    id: 15,
+    text: "Fifteenth slide",
+    imagePath: "carousel/carousel",
+  },
+];
